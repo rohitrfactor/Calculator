@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.nikki.calculator2;
 
-import android.content.Context;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 

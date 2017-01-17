@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.nikki.calculator2;
 
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
@@ -42,11 +42,11 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.android.calculator2.CalculatorEditText.OnTextSizeChangeListener;
-import com.android.calculator2.CalculatorExpressionEvaluator.EvaluateCallback;
+import com.android.calculator2.R;
+import com.nikki.calculator2.CalculatorExpressionEvaluator.EvaluateCallback;
 
 public class Calculator extends Activity
-        implements OnTextSizeChangeListener, EvaluateCallback, OnLongClickListener {
+        implements CalculatorEditText.OnTextSizeChangeListener, EvaluateCallback, OnLongClickListener {
 
     private static final String NAME = Calculator.class.getName();
 

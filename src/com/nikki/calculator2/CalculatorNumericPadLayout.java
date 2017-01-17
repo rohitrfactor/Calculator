@@ -14,15 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.nikki.calculator2;
+import com.android.calculator2.R;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Button;
 import android.view.View;
-import java.text.DecimalFormat;
+
+import com.android.calculator2.R;
+
 import java.text.DecimalFormatSymbols;
-import java.text.NumberFormat;
 import java.util.Locale;
 
 public class CalculatorNumericPadLayout extends CalculatorPadLayout {

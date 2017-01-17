@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.nikki.calculator2;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,6 +32,9 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.android.calculator2.R;
+
 
 public class CalculatorEditText extends EditText {
 

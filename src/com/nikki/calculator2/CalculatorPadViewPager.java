@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.calculator2;
+package com.nikki.calculator2;
+import com.android.calculator2.R;
+
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
